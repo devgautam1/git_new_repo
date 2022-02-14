@@ -7,11 +7,12 @@ function formvalidation() {
     document.reg_form.studentname.focus();  
     return false;  
   }else{
+    sdfsddsfsdfsdfsdfsdfsdf
     var con = regName.test(name);
     if(con == false){
       alert('Invalid name given.');
       document.reg_form.studentname.focus();
       return false;
-    }
+    }sdfsdf
   }
 }
